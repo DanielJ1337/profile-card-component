@@ -93,12 +93,37 @@ body{
     }
 
     .profile-pic{
-        margin-top: -100px;
+        margin-top: -20%;
     }
     .fullname{
         margin-top: 1rem;
     }
     .heading{
         padding: 5px 40px;
+    }
+}
+
+@media(min-width: 1024px){
+    .body{
+        background-position: 20% 10%, 40% 70% ;
+    }
+    
+    .card{
+        max-width: 30%;
+        margin: 15% auto 15%;
+    }
+    .fullname{
+        margin-top: 1rem;
+    }
+}
+
+@media(min-width: 768px){
+    
+    .card{
+        max-width: 41%;
+        margin: 15% auto 15%;
+    }
+    .fullname{
+        margin-top: 1rem;
     }
 }
