@@ -2,10 +2,17 @@ body{
     margin: 0;
     text-align: center;
     background-color: hsl(185, 75%, 39%);
-    background-image: url("https://github.com/DanielJ1337/profile-card-component/blob/main/bg-pattern-top.svg");
+    background-image: url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg"), url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: -80% 120%, 140% -170% ;
+    /* background-position: -30% -200%, 140% 170% ; */
     font-family: "Kumbh Sans", sans-serif;
 }
 
+.bg-color{
+    
+    height: 100%;
+}
 
 .background{
     width: 100%;
@@ -76,6 +83,10 @@ body{
 
 
 @media (min-width:1440px){
+    .body{
+        background-position: -80% 120%, 140% -170% ;
+    }
+    
     .card{
         max-width: 30%;
         margin: 15% auto auto;
