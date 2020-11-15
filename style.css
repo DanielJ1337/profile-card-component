@@ -65,20 +65,25 @@ body{
 
 .container-one{
     width: 100%;
-    margin: 5px 8%;  
+    margin: 5px;  
 }
 
+table{
+    margin: auto -5%;
 
+    width: 100%;
+}
 
 .heading{
-    padding: 5px 25px;
     font-weight: 700;
     font-size: 1.15rem;
     margin-top: 30px;
 } 
 
 .subheading{
+
     font-size: .7rem;
+    
 }
 
 
@@ -98,8 +103,11 @@ body{
     .fullname{
         margin-top: 1rem;
     }
+    table{
+
+    }
     .heading{
-        padding: 5px 40px;
+        padding: 10% auto 0;
     }
 }
 
@@ -112,8 +120,16 @@ body{
         max-width: 30%;
         margin: 15% auto 15%;
     }
+
+    .profile-pic{
+        margin-top: -22%;
+    }
     .fullname{
         margin-top: 1rem;
+    }
+
+    .heading{
+        padding: auto;
     }
 }
 
@@ -125,5 +141,8 @@ body{
     }
     .fullname{
         margin-top: 1rem;
+    }
+    .heading{
+        padding: auto;
     }
 }
