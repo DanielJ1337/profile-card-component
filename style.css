@@ -2,7 +2,7 @@ body{
     margin: 0;
     text-align: center;
     background-color: hsl(185, 75%, 39%);
-    background-image: url("images/bg-pattern-top.svg");
+    background-image: url("https://github.com/DanielJ1337/profile-card-component/blob/main/bg-pattern-top.svg");
     font-family: "Kumbh Sans", sans-serif;
 }
 
