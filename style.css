@@ -11,7 +11,7 @@ body{
     background-image: url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg"), url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg");
     background-repeat: no-repeat, no-repeat;
     font-family: "Kumbh Sans", sans-serif;
-
+    background-position: -50% 80% , 120% -80% ;
     text-align: center;
 }
 
