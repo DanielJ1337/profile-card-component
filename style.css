@@ -81,7 +81,7 @@ table{
 .heading{
     font-weight: 700;
     font-size: 1.15rem;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 } 
 
 .subheading{
@@ -99,15 +99,6 @@ table{
         margin: 15% auto 15%; 
     }
 
-    .profile-pic{
-
-    }
-    .fullname{
-
-    }
-    .heading{
-        padding: auto;
-    }
 }
 
 
