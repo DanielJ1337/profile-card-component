@@ -1,4 +1,123 @@
+*{
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
 body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg"), url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg");
+    background-repeat: no-repeat, no-repeat;
+    font-family: "Kumbh Sans", sans-serif;
+
+    text-align: center;
+}
+
+.card-container{
+    position: relative;
+    top: 28rem;
+    width: 20%;
+    margin: auto auto;
+ }
+
+.background{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bg-image{
+    height: 19rem;
+}
+
+.profile-pic{
+    position: relative;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    bottom: 5rem;
+}
+
+.person-information{
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    
+}
+
+.age{
+    margin-left: .5rem;
+}
+
+.city, .age, .subheading{
+    color: hsl(227, 10%, 46%);
+    opacity: 0.7;
+}
+
+.full-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.card{
+    border-style: none;
+    border-radius: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.table-container table{
+    width: 100%;
+    margin: auto auto;
+    padding: 1rem 3rem;
+    border-collapse: separate;
+}
+tr{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.heading{
+    font-size: 1.8rem ;
+}
+
+.sub-heading{
+    margin-top: 0.1rem;
+    font-size: 0.5rem;
+}
+
+@media(max-width: 1024px){
+
+    .card-container{
+        width: 28%;
+    }
+}
+
+
+@media(max-width: 768px){
+    
+    .person-information{
+        margin-top: 1rem;
+    }
+
+    .card-container{
+       width: 38%;
+        margin: 0 auto; 
+    }
+}
+
+@media(max-width: 375px){
+    body{
+        background-position: -10% -80% , 130% 100%  ;;
+    }
+
+    .person-information{
+        margin-top: 1rem;
+    }
+    
+    .card-container{
+        width: 80%;
+     }
+}
+/*body{
     margin: 0;
     text-align: center;
     background-color: hsl(185, 75%, 39%);
@@ -8,16 +127,10 @@ body{
     font-family: "Kumbh Sans", sans-serif;
 }
 
-.bg-color{
-    
-    height: 100%;
-}
-
 .background{
     width: 100%;
     height: 40%;
     border-style: none;
-    overflow: hidden;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     
@@ -25,7 +138,7 @@ body{
 
 .card{
     border-radius: 15px;
-    /* margin: 50% 8%; */
+    /* margin: 50% 8%; 
     border-style: none;
     width: 30%;
     margin: 9% auto 8%;
@@ -45,7 +158,7 @@ body{
 }
 
 .profile-pic{
-    margin-top: -18%;
+    /* margin-top: -18%; 
     border-radius: 100%;
     border: 5px solid white;
     width: 35%;
@@ -81,7 +194,6 @@ table{
 .heading{
     font-weight: 700;
     font-size: 1.15rem;
-    /* margin-top: 30px; */
 } 
 
 .subheading{
@@ -92,25 +204,8 @@ table{
 
 
 
-@media(max-width: 768px){
-    
-    .card{
-       width: 45%;
-        margin: 15% auto 15%; 
-    }
-
-}
 
 
-@media(max-width: 375px){
-    body{
-        background-position: -2% -50% , 130% 80%  ;;
-    }
-    
-    
-    .card{
-        width: 80%;
-         margin: 30% auto 15%; 
-     }
-}
 
+
+ */
