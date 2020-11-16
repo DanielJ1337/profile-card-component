@@ -11,16 +11,13 @@ body{
     background-image: url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg"), url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg");
     background-repeat: no-repeat, no-repeat;
     font-family: "Kumbh Sans", sans-serif;
-    background-position: -50% 80% , 120% -80% ;
+    background-position: -30rem -35rem , 65rem 45rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
-
-.card-container{
-    position: relative;
-    top: 25rem;
-    width: 20%;
-    margin: auto auto;
- }
 
 .background{
     width: 100%;
@@ -29,20 +26,22 @@ body{
 }
 
 .bg-image{
-    height: 19rem;
+    height: 15rem;
 }
 
 .profile-pic{
     position: relative;
     border-radius: 100%;
     border: 5px solid #fff;
-    bottom: 5rem;
+    width: 80px;
+    margin-top: -4rem;
+
 }
 
 .person-information{
+    margin-top: 3rem;
     margin-bottom: 2rem;
     font-size: 1.3rem;
-    
 }
 
 .age{
@@ -59,11 +58,14 @@ body{
     font-weight: bold;
 }
 
+
 .card{
     border-style: none;
     border-radius: 15px;
-    width: 100%;
+    max-width: 70%;
     position: relative;
+    margin: auto auto;
+    height: 330px;
 }
 
 .table-container table{
@@ -76,7 +78,7 @@ tr{
     margin: 1rem 1rem 1rem 1rem;
 }
 .heading{
-    font-size: 1.8rem ;
+    font-size: 1.5rem ;
 }
 
 .sub-heading{
@@ -84,128 +86,16 @@ tr{
     font-size: 0.5rem;
 }
 
-@media(max-width: 1024px){
-
-    .card-container{
-        width: 28%;
-    }
-}
-
-
-@media(max-width: 768px){
-    
-    .person-information{
-        margin-top: 1rem;
-    }
-
-    .card-container{
-       width: 38%;
-        margin: 0 auto; 
-    }
-}
-
 @media(max-width: 375px){
     body{
-        background-position: -10% -80% , 130% 100%  ;;
+        background-position: 2rem 47rem , -82rem -50rem;
     }
 
     .person-information{
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
     
-    .card-container{
-        width: 80%;
+    .card{
+        max-width: 80%;
      }
 }
-/*body{
-    margin: 0;
-    text-align: center;
-    background-color: hsl(185, 75%, 39%);
-    background-image: url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg"), url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-position: 150% -150% , -100% 150%;
-    font-family: "Kumbh Sans", sans-serif;
-}
-
-.background{
-    width: 100%;
-    height: 40%;
-    border-style: none;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    
-}
-
-.card{
-    border-radius: 15px;
-    /* margin: 50% 8%; 
-    border-style: none;
-    width: 30%;
-    margin: 9% auto 8%;
-}
-
-.inner-content{
-    padding: 5% 0;
-}
-
-.bg-img{
-    height: 50%;
-    position: relative;
-}
-
-.city, .subheading{
-    color: hsl(0, 0%, 59%);
-}
-
-.profile-pic{
-    /* margin-top: -18%; 
-    border-radius: 100%;
-    border: 5px solid white;
-    width: 35%;
-    
-}
-.full-name{
-    font-size: 1.15rem;
-    font-weight: 700;
-    margin: 1rem 0;
-}
-
-.city{
-    margin: -0.5rem auto 1.8rem;
-}
-
-.age{
-    font-weight: 400;
-    margin-left: 5px;
-    font-size-adjust: 1rem;
-    color:hsl(0, 0%, 59%)
-}
-
-.table-container{
-    width: 100%;
-    margin: 5px;  
-}
-
-table{
-    margin: auto -1% ;
-    width: 90%;
-}
-
-.heading{
-    font-weight: 700;
-    font-size: 1.15rem;
-} 
-
-.subheading{
-
-    font-size: .7rem;
-    
-}
-
-
-
-
-
-
-
- */
