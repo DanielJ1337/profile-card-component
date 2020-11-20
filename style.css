@@ -11,7 +11,7 @@ body{
     background-image: url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg"), url("https://raw.githubusercontent.com/DanielJ1337/profile-card-component/42a24d7706f0432ed9e41079ec608bfc41c2cc74/bg-pattern-top.svg");
     background-repeat: no-repeat, no-repeat;
     font-family: "Kumbh Sans", sans-serif;
-    background-position: -30rem -35rem , 65rem 45rem;
+    background-position: left bottom, right top;
     text-align: center;
     display: flex;
     align-items: center;
@@ -25,12 +25,9 @@ body{
     border-top-right-radius: 15px;
 }
 
-.bg-image{
-    height: 15rem;
-}
 
 .profile-pic{
-    position: relative;
+    /* position: relative; */
     border-radius: 100%;
     border: 5px solid #fff;
     width: 80px;
@@ -39,7 +36,7 @@ body{
 }
 
 .person-information{
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 1.3rem;
 }
@@ -58,6 +55,9 @@ body{
     font-weight: bold;
 }
 
+.card-conatiner{
+    width: 75%;
+}
 
 .card{
     border-style: none;
@@ -65,7 +65,7 @@ body{
     max-width: 70%;
     position: relative;
     margin: auto auto;
-    height: 330px;
+    max-height: 330px;
 }
 
 .table-container table{
@@ -88,7 +88,7 @@ tr{
 
 @media(max-width: 375px){
     body{
-        background-position: 2rem 47rem , -82rem -50rem;
+        background-position: left bottom, right top;
     }
 
     .person-information{
@@ -96,6 +96,6 @@ tr{
     }
     
     .card{
-        max-width: 80%;
+        max-width: 75%;
      }
 }
